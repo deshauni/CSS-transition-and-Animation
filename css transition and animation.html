@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .demo {
+            display: inline-grid;
+            grid-template-columns: 50% 50%;
+            
+
+        }
+
+        .box {
+            border-style: solid;
+            border-width: 1px;
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: width 2s, height 2s, background-color 2s, transform 2s;
+        }
+
+        .box:hover {
+
+            width: 100px;
+            height: 100px;
+            transform: rotate(90deg);
+        }
+
+        .box1 {
+            border-style: solid;
+            border-width: 1px;
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: #0000FF;
+            transition: width 2s, height 2s, background-color 2s, transform 2s;
+        }
+
+        .box1:hover {
+
+            width: 100px;
+            height: 100px;
+            transform: rotate(90deg);
+        }
+
+        .box2 {
+            border-style: solid;
+            border-width: 1px;
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            transition: width 2s, height 2s, background-color 2s, transform 2s;
+        }
+
+        .box2:hover {
+
+            width: 100px;
+            height: 100px;
+            transform: rotate(-90deg);
+        }
+
+        .box3 {
+            border-style: solid;
+            border-width: 1px;
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            transition: width 2s, height 2s, background-color 2s, transform 2s;
+        }
+
+        .box3:hover {
+
+            width: 100px;
+            height: 100px;
+            transform: rotate(-90deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Transition and Animation</h1>
+    <div class="demo">
+        
+        <div class="box"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+</body>
+
+</html>
